@@ -1,0 +1,48 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<head>
+<title>Survey</title>
+</head>
+
+<body>
+<style>
+  body {
+        background-image: linear-gradient(180deg, rgba(255,255,255,0) 60%, #fff),linear-gradient(70deg, #dbedff 32%, #ebfff0);
+    text-align:center;
+  }
+  </style>
+<div>
+  <h1 id="title">Survey</h1>
+  <p id="description">Take this survey</p>
+
+  <form id="survey-form">
+  <label id="name-label">Name</label></br>
+    <input type="text" id="name" placeholder="name" required></br></br>
+<label id="email-label">Email</label></br>
+  <input type="email" id="email" placeholder="email" required></br></br></br>
+<label id="number-label">Number</label></br>
+  <input type="number" min="0" max="125" placeholder="number" id="number"></br></br>
+
+<label>Favourite Color</label></br>
+<select  id="dropdown">
+  <option value="red">Red</option>
+  <option value="blue">Blue</option>
+  <option value="yellow">Yellow</option>
+  <option value="green">Green</option>
+</select>
+</br></br>
+<input type="radio" name="gender" value="male" checked> Male<br>
+<input type="radio" name="gender" value="female"> Female<br>
+<input type="radio" name="gender" value="other"> Other
+</br>
+<label>Additional comments</label></br>
+<textarea> </textarea></br>
+
+  <input type="checkbox" name="tos" value="tos"> I agree to the terms and conditions.<br>
+  <input type="checkbox" name="email" value="email"> Receive E-mail updates
+</br>
+  <input type="submit" id="submit">
+  </form>
+</div>
+
+</body>
