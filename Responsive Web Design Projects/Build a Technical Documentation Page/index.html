@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+    <title>iPhone</title>
+
+    <link rel="stylesheet" href="css.css">
+  </head>
+  <body>
+
+
+
+    <header id="header">
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #3b4348; color: white;" id="navbar">
+<header><h1>Javascript</h1></header>
+<ul class="nav">
+<li class="nav-item" ><a href="#Introduction" class="nav-link" >Introduction</a></li>
+<li class="nav-item"><a href="#History" class="nav-link" >History</a></li>
+<li class="nav-item"><a href="#Server_side_JavaScript" class="nav-link" >Server side JavaScript</a></li>
+<li class="nav-item"><a href="#Adoption_by_Microsoft" class="nav-link" >Adoption by Microsoft</a></li>
+<li class="nav-item"><a href="#Later_developments" class="nav-link" >Later Developments</a></li>
+<li class="nav-item"><a href="#What_you_should_already_know" class="nav-link" >What you should already know</a></li>
+<li class="nav-item"><a href="#Hello_World" class="nav-link">Hello World</a></li>
+<li class="nav-item"><a href="#Declaring_variables" class="nav-link">Declaring Variables</a></li>
+</ul>
+
+
+</nav>
+</header>
+
+<main  id="main-doc">
+<div class="container-fluid">
+<div class="row">
+<div class="col-2">
+  <header id="header">
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #3b4348; color: white;" id="navbar">
+  <ul class="list-group list-group-flush" style="border-right: 5px solid #3b4348; height:95vh; background-color:#3b4348;">
+    </br>
+    <h2 class="text-center"> JS Documentation </h1>
+    </br>
+    <a href="#Introduction" ><li class="list-group-item list-group-item-action active" onclick="navigate($(this))" >Introduction</li></a>
+    <a href="#History" ><li class="list-group-item list-group-item-action" onclick="navigate($(this))">History</li></a>
+    <a href="#Server_side_JavaScript" ><li class="list-group-item list-group-item-action" onclick="navigate($(this))">Server-side JavaScript</li></a>
+    <a href="#Adoption_by_Microsoft" ><li class="list-group-item list-group-item-action" onclick="navigate($(this))">Adoption by Microsoft</li></a>
+    <a href="#Later_developments" ><li class="list-group-item list-group-item-action" onclick="navigate($(this))">Later Developments</li></a>
+    <a href="#What_you_should_already_know" ><li class="list-group-item list-group-item-action" onclick="navigate($(this))">What you should already know</li></a>
+    <a href="#Hello_World" ><li class="list-group-item list-group-item-action" onclick="navigate($(this))">Hello World</li></a>
+    <a href="#Declaring_variables" ><li class="list-group-item list-group-item-action" onclick="navigate($(this))">Declaring Variables</li></a>
+  </ul>
+  <script>
+  function navigate(id) {
+    $('.active').removeClass('active');
+    $(id).addClass("active");
+  }
+  </script>
+</nav>
+</header>
+</div>
+<div class="col-10" style="background-color: #6c7b84; color: white;">
+</br>
+<section class="main-section" id="Introduction">
+  <header><h1>Introduction</h1></header>
+  <article>
+  <p> JavaScript is a cross-platform, object-oriented scripting language. It is a small and lightweight language. Inside a host environment (for example, a web browser), JavaScript can be connected to the objects of its environment to provide programmatic control over them. </p>
+  <p> Alongside HTML and CSS, JavaScript is one of the three core technologies of the World Wide Web.JavaScript enables interactive web pages and thus is an essential part of web applications. The vast majority of websites use it, and all major web browsers have a dedicated JavaScript engine to execute it. </p>
+  <p> As a multi-paradigm language, JavaScript supports event-driven, functional, and imperative (including object-oriented and prototype-based) programming styles. It has an API for working with text, arrays, dates, regular expressions, and basic manipulation of the DOM, but the language itself does not include any I/O, such as networking, storage, or graphics facilities, relying for these upon the host environment in which it is embedded. </p>
+</article>
+</section>
+
+<section class="main-section" id="History">
+  <header><h1>History</h1></header>
+  <article>
+  <p>In 1993, the National Center for Supercomputing Applications (NCSA), a unit of the University of Illinois at Urbana-Champaign, released NCSA Mosaic, the first popular graphical Web browser, which played an important part in expanding the growth of the nascent World Wide Web. In 1994, a company called Mosaic Communications was founded in Mountain View, California and employed many of the original NCSA Mosaic authors to create Mosaic Netscape. However, it intentionally shared no code with NCSA Mosaic. The internal codename for the company's browser was Mozilla, which stood for "Mosaic killer", as the company's goal was to displace NCSA Mosaic as the world's number one web browser. The first version of the Web browser, Mosaic Netscape 0.9, was released in late 1994. Within four months it had already taken three-quarters of the browser market and became the main browser for the Internet in the 1990s. To avoid trademark ownership problems with the NCSA, the browser was subsequently renamed Netscape Navigator in the same year, and the company took the name Netscape Communications. Netscape Communications realized that the Web needed to become more dynamic. Marc Andreessen, the founder of the company believed that HTML needed a "glue language" that was easy to use by Web designers and part-time programmers to assemble components such as images and plugins, where the code could be written directly in the Web page markup. </p>
+  <p> In 1995, Netscape Communications recruited Brendan Eich with the goal of embedding the Scheme programming language into its Netscape Navigator. Before he could get started, Netscape Communications collaborated with Sun Microsystems to include in Netscape Navigator Sun's more static programming language Java, in order to compete with Microsoft for user adoption of Web technologies and platforms.Netscape Communications then decided that the scripting language they wanted to create would complement Java and should have a similar syntax, which excluded adopting other languages such as Perl, Python, TCL, or Scheme. To defend the idea of JavaScript against competing proposals, the company needed a prototype. Eich wrote one in 10 days, in May 1995. </p>
+  <p> Although it was developed under the name Mocha, the language was officially called LiveScript when it first shipped in beta releases of Netscape Navigator 2.0 in September 1995, but it was renamed JavaScript when it was deployed in the Netscape Navigator 2.0 beta 3 in December. The final choice of name caused confusion, giving the impression that the language was a spin-off of the Java programming language, and the choice has been characterized as a marketing ploy by Netscape to give JavaScript the cachet of what was then the hot new Web programming language. </p>
+</article>
+</section>
+<hr>
+<section class="main-section" id="Server_side_JavaScript">
+  <header><h1>Server side JavaScript</h1></header>
+  <article>
+    <p> In December 1995, soon after releasing JavaScript for browsers, Netscape introduced an implementation of the language for server-side scripting with Netscape Enterprise Server. </p>
+    <p> Since 1996, the IIS web-server has supported Microsoft's implementation of server-side Javascript -- JScript -- in ASP and .NET pages. </p>
+    <p> Since the mid-2000s, additional server-side JavaScript implementations have been introduced, such as Node.js in 2009. </p>
+  </article>
+  </section>
+<hr>
+  <section class="main-section" id="Adoption_by_Microsoft">
+    <header><h1>Adoption by Microsoft</h1></header>
+    <article>
+      <p> Microsoft script technologies including VBScript and JScript were released in 1996. JScript, a reverse-engineered implementation of Netscape's JavaScript, was part of Internet Explorer 3. JScript was also available for server-side scripting in Internet Information Server. Internet Explorer 3 also included Microsoft's first support for CSS and various extensions to HTML, but in each case the implementation was noticeably different to that found in Netscape Navigator at the time. These differences made it difficult for designers and programmers to make a single website work well in both browsers, leading to the use of "best viewed in Netscape" and "best viewed in Internet Explorer" logos that characterized these early years of the browser wars. JavaScript began to acquire a reputation for being one of the roadblocks to a cross-platform and standards-driven Web. Some developers took on the difficult task of trying to make their sites work in both major browsers, but many could not afford the time. With the release of Internet Explorer 4, Microsoft introduced the concept of Dynamic HTML, but the differences in language implementations and the different and proprietary Document Object Models remained and were obstacles to widespread take-up of JavaScript on the Web </p>
+    </article>
+    </section>
+<hr>
+    <section class="main-section" id="Later_developments">
+      <header><h1>Later developments</h1></header>
+      <article>
+        <p> JavaScript has become one of the most popular programming languages on the Web. Initially, however, many professional programmers denigrated the language because, among other reasons, its target audience consisted of Web authors and other such "amateurs". The advent of Ajax returned JavaScript to the spotlight and brought more professional programming attention. The result was a proliferation of comprehensive frameworks and libraries, improved JavaScript programming practices, and increased usage of JavaScript outside Web browsers, as seen by the proliferation of Server-side JavaScript platforms. </p>
+        <p> In January 2009, the CommonJS project was founded with the goal of specifying a common standard library mainly for JavaScript development outside the browser. </p>
+        <p> With the rise of single-page applications and JavaScript-heavy sites, it is increasingly being used as a compile target for source-to-source compilers from both dynamic languages and static languages. </p>
+      </article>
+      </section>
+<hr>
+      <section class="main-section" id="What_you_should_already_know">
+          <header><h1>What you should already know</h1></header>
+          <article>
+            <p>This guide assumes you have the following basic background:</p>
+
+            <li>A general understanding of the Internet and the World Wide Web (WWW).</li>
+            <li>Good working knowledge of HyperText Markup Language (HTML).</li>
+            <li>Some programming experience. If you are new to programming, try one of the tutorials linked on the main page about JavaScript.</li>
+            <li>All modern Web browsers support JavaScript with built-in interpreters. </li>
+            <li>JavaScript typically relies on a run-time environment (e.g., a Web browser) to provide objects and methods by which scripts can interact with the environment (e.g., a webpage DOM). It also relies on the run-time environment to provide the ability to include/import scripts. This is not a language feature per se, but it is common in most JavaScript implementations. </li>
+
+
+          </article>
+        </section>
+        <hr>
+        <section class="main-section" id="Hello_World">
+          <header><h1>Hello World</h1></header>
+          <article>
+              To get started with writing JavaScript, open the Scratchpad and write your first "Hello world" JavaScript code:
+              <p>
+                <code>function greetMe(yourName)
+{
+    alert("Hello " + yourName);
+}
+greetMe("World");
+              </code>
+              </p>
+              Select the code in the pad and hit Ctrl+R to watch it unfold in your browser!
+            </article>
+          </section>
+
+          <section class="main-section" id="Declaring_variables">
+              <header><h1>Declaring variables</h1></header>
+              <article>
+                You can declare a variable in three ways:
+                <p>
+                With the keyword var. For example, <code>var x = 42.</code> This syntax can be used to declare both local and global variables.
+                </p>
+                <p>
+                  By simply assigning it a value. For example, <code>x = 42.</code> This always declares a global variable. It generates a strict JavaScript warning. You shouldn't use this variant.
+                </p>
+                <p>
+                  With the keyword let. For example,<code> let y = 13.</code>  <code> let y = 14.</code> This syntax can be used to declare a block scope local variable. See Variable scope below.
+                </p>
+              </article>
+              </section>
+
+</div>
+</div>
+</div>
+</main>
+
+
+
+      <!-- Footer -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,49 @@
+.list-group-item.active {
+  background-color: #3b4348 ;
+  border-color: #cccccc;
+}
+
+#navbar {
+border-right: solid;
+border-left: solid;
+border-color: #999;
+position:fixed;
+left:0;
+height:100%;
+width:23%;
+/* position: fixed */
+}
+
+#navbar > a {
+text-decoration: none;
+color: #000;
+}
+
+.col-2 {
+  padding-left: 0px;
+  padding-right: 0px;
+
+}
+
+.list-group-item {
+  background-color:#f9f9f9;
+}
+
+body {
+  background-color: #f9f9f9;
+}
+
+code {
+    display: block;
+    text-align: left;
+    white-space: pre;
+    position: relative;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 2;
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    color: black;
+}
