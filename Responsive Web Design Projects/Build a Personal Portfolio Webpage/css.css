@@ -1,0 +1,26 @@
+
+nav {
+  background-color: #55DDE0;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+li > a {
+  color: #ffffff;
+}
+
+.welcome {
+  height: 100vh;
+}
+
+.welcome-text {
+  color:white;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 100vh;
+}
+
+h1 {
+  color: white;
+}
