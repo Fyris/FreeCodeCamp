@@ -18,7 +18,7 @@ class Quote extends Component {
     fetchQuote(){
         fetch("https://andruxnet-random-famous-quotes.p.mashape.com/?count=1", {
             headers: {
-                'X-Mashape-Key': 'API KEY',
+                'X-Mashape-Key': 'cN4VEo5egYmshgNcT3TjgiEBrV4op1rs9KujsndObk7dfQMM2g',
             }
         })
             .then(res => res.json())

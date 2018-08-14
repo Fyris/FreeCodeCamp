@@ -1,0 +1,77 @@
+.container {
+  width: 500px;
+  background-color: #FFFFFF;
+}
+
+.row {
+  margin-top: 25px
+}
+
+body {
+  background-color: #BFC0C0;
+}
+
+.center-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.btn-primary {
+  background-color: #EF8354;
+  border-color: #EF8354;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #ff560c;
+  border-color: #ff560c;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #ff560c;
+  border-color: #ff560c;
+}
+
+.btn-power {
+  background-color: #279443;
+  border-color: #279443;
+}
+
+.btn-power:hover {
+  color: #fff;
+  background-color: #03a52c;
+  border-color: #03a52c;
+}
+
+.btn-power:not(:disabled):not(.disabled).active, .btn-power:not(:disabled):not(.disabled):active, .show>.btn-power.dropdown-toggle {
+  color: #fff;
+  background-color: #03a52c;
+  border-color: #03a52c;
+}
+
+.btn-power-off {
+  background-color: #b11313;
+  border-color: #b11313;
+}
+
+.btn-power-off:hover {
+  color: #fff;
+  background-color: #c10d0d;
+  border-color: #c10d0d;
+}
+
+.btn-power-off:not(:disabled):not(.disabled).active, .btn-power-off:not(:disabled):not(.disabled):active, .show>.btn-power-off.dropdown-toggle {
+  color: #fff;
+  background-color: #c10d0d;
+  border-color: #c10d0d;
+}
+
+.text-box {
+  border: 1px solid #ccc!important;
+  padding: 15px 75px 25px;
+}
